@@ -1,0 +1,76 @@
+{
+  "message": "successfully routed to question page",
+  "allDetails": [
+      {
+          "_id": "62ebb4bbac024ae8980717b9",
+          "question": "What keyword is used to check whether a given property is valid or not?",
+          "answers/a": "if",
+          "answers/b": "of",
+          "answers/c": "in"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717ba",
+          "question": "(function(){\r\n      setTimeout(()=> console.log(1),2000);\r\n      console.log(2);\r\n      setTimeout(()=> console.log(3),0);\r\n      console.log(4);\r\n     })();   What is the output?",
+          "answers/a": "2 4 3 1",
+          "answers/b": "2 3 4 1",
+          "answers/c": "4 2 3 1"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717bb",
+          "question": "let a = null || undefined;\r\n    a == null ? console.log(a) : console.log(",
+          "answers/a": "null",
+          "answers/b": "undefined",
+          "answers/c": "error",
+          "error": ");\r\n    what is the output?"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717bc",
+          "question": "var value = true + true + true * 3;\r\n    console.log(value); what is the output?",
+          "answers/a": "0 || Error",
+          "answers/b": "3",
+          "answers/c": "5"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717bd",
+          "question": "function test(...args) {\r\n      console.log(typeof args);\r\n     }\r\n     test(12); what is the output?",
+          "answers/a": "Number",
+          "answers/b": "NaN",
+          "answers/c": "Object"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717be",
+          "question": "const array = [1, 2, 3];\r\n    const extension = [4, 5, 6];\r\n    array = [...extension, ...array]\r\n    console.log(array) what is the output?",
+          "answers/a": "[1,2,3]",
+          "answers/b": "Error",
+          "answers/c": "[4,5,6,1,2,3]"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717bf",
+          "question": "var a = 4;\r\n    function baaz() {\r\n      a = 6;\r\n      boom();\r\n    }; function boom() {\r\n      var a = 8;\r\n      console.log(a)\r\n    };\r\n    baaz();\r\n    console.log(a); what is the output?",
+          "answers/a": "8,6",
+          "answers/b": "4,8",
+          "answers/c": "6,4"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717c0",
+          "question": "var arr = [\"B\", \"A\"];\r\n    var [first, second, ...rest] = arr;\r\n    console.log(rest); what is the output?",
+          "answers/a": "[]",
+          "answers/b": "['B']",
+          "answers/c": "['B','A]"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717c1",
+          "question": "const a;\r\n    console.log(a); what is the output?",
+          "answers/a": "undefined",
+          "answers/b": "Error",
+          "answers/c": "null"
+      },
+      {
+          "_id": "62ebb4bbac024ae8980717c2",
+          "question": "var a = 10;\r\n    {\r\n     var a = 20;\r\n   }\r\n   console.log(a); what is the output?",
+          "answers/a": "10",
+          "answers/b": "20",
+          "answers/c": "Error"
+      }
+  ]
+}
